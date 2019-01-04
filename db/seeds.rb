@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+=begin
+class Post < ActiveRecord
+  Post.create(content: "ActiveRecord test!")
+  Post.create(content: "ActiveRecord test2!")
+
+  pp Post.all
+end=end
